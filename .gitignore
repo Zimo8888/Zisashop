@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local / Railway database files
+shop.db
+*.db
+*.sqlite
+*.sqlite3
+data/
+backups/
+
+# Logs
+*.log
